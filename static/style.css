@@ -125,3 +125,4 @@ blockquote{margin:22px 0;padding:6px 0 6px 20px;border-left:4px solid var(--red)
 .fbox form{display:flex;flex-direction:column;gap:8px;margin:10px 0}.fbox textarea{border:1px solid #ccc;border-radius:4px;padding:10px;font:inherit;font-size:13px;resize:vertical}.fbox textarea:disabled{background:#f3f3f3}
 .fb{border-top:1px dashed var(--line);padding:8px 0;font-size:12.5px}.fb p{margin:4px 0}.fb-c{color:#444}.fb-r{background:var(--grey);padding:6px 10px;border-radius:4px}
 .btn:disabled{opacity:.55;cursor:not-allowed}.fb-preview{max-width:780px;margin:10px auto 30px}
+.plat{font-size:10px;font-weight:700;background:#222;color:#fff;border-radius:3px;padding:1px 6px;vertical-align:1px}
