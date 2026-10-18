@@ -126,3 +126,9 @@ blockquote{margin:22px 0;padding:6px 0 6px 20px;border-left:4px solid var(--red)
 .fb{border-top:1px dashed var(--line);padding:8px 0;font-size:12.5px}.fb p{margin:4px 0}.fb-c{color:#444}.fb-r{background:var(--grey);padding:6px 10px;border-radius:4px}
 .btn:disabled{opacity:.55;cursor:not-allowed}.fb-preview{max-width:780px;margin:10px auto 30px}
 .plat{font-size:10px;font-weight:700;background:#222;color:#fff;border-radius:3px;padding:1px 6px;vertical-align:1px}
+/* keep faces in frame: crop from the top-biased centre, never the head */
+.slide-img img,.mini-img img,.gimg img,.tl-card img,.vthumb img,.dcard>img{object-position:50% 18%}
+.a-cover{background:#111;border-radius:8px;overflow:hidden}
+.a-cover img{object-fit:contain;max-height:520px;background:#111;border-radius:0;margin:0 auto}
+.a-cover figcaption{background:#fff;padding:6px 2px 0}
+.slide-img img{object-position:50% 15%}
